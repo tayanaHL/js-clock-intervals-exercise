@@ -1,14 +1,22 @@
 #clock {
+    margin-top: 200px;
+    margin-left: 650px;
 }
 
 #clock img {
-}
-
-#hour {
-}
-
-#minute {
+    position: absolute;
+    
 }
 
 #second {
+    transform: rotate(60deg);
+    z-index: 2;
+}
+
+#hour {
+    transform: rotate(45deg);
+}
+
+#minute {
+    z-index: 1;
 }
